@@ -29,7 +29,7 @@ export default function Navbar() {
                     <MdMenu className='text-3xl text-white' />
                   )}
                 </MenuButton>
-                <MenuList bg='rgba(0,0,0,0.1)' color='white'>
+                <MenuList bg='rgba(0,0,0,0.7)' color='white'>
                   {navItems.map(navObj => (
                     <MenuItem
                       transition='all'
@@ -37,7 +37,7 @@ export default function Navbar() {
                       _hover={{
                         bg: 'rgba(0,0,0,0.2)',
                       }}
-                      bg='rgba(0,0,0,0.1)'
+                      bg='rgba(0,0,0,0.7)'
                       color='white'
                       key={navObj.linkName}
                     >
