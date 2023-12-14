@@ -1,5 +1,5 @@
 {
   "jsxSingleQuote": true,
   "singleQuote": true,
-  "arrowParens": "always"
+  "arrowParens": "avoid"
 }
