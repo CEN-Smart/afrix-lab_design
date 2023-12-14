@@ -8,14 +8,22 @@ module.exports = {
     './src/**/*.{ts,tsx}',
 	],
   theme: {
+    screens: {
+      xs: "30em",
+      sm: "40em",
+      md: "48em",
+      lg: "62em",
+      xl: "80em",
+      "2xl": "96em",
+    },
     container: {
       center: true,
       padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
     },
     extend: {
+        fontFamily: {
+            inter: ['var(--font-inter)'],
+        },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -73,4 +81,7 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
+  corePlugins:{
+    preflight:false
+  }
 }
