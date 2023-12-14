@@ -76,5 +76,5 @@
 }
 
 .bg-hero {
-  background: rgba(0 0 0/0.8) url('/images/bg-hero.png') no-repeat top center;
+  background: rgba(0 0 0/0.8) url('/images/bg-hero.png') no-repeat center center/cover;
 }
