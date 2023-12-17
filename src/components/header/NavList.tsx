@@ -1,20 +1,39 @@
+'use client';
+import { cn } from '@/lib/utils';
 import { NavItems } from '@/types/navtypes';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 type NavListProps = {
   navObj: NavItems;
   className?: string;
+  index?: string;
+  children: React.ReactNode;
   onClick?: () => void;
 };
 
-export default function NavList({ navObj, onClick, className }: NavListProps) {
+export default function NavList({
+  navObj,
+  onClick,
+  index,
+  children,
+  className,
+}: NavListProps) {
+  const pathname = usePathname();
   return (
     <>
       <li
         onClick={onClick}
-        className={`list-none nav__link w-full px-4 py-2 ${className}`}
+        className={cn(
+          `list-none navigation__item font-[600]  px-4 py-2 flex gap-3 ${className}`,
+          {
+            'translate-x-4 bg-[#54890533]/20 shadow-xl rounded-[12px] font-extrabold text-[#548905]':
+              pathname === navObj.link,
+          }
+        )}
       >
-        <Link href={navObj.link}>{navObj.linkName}</Link>
+        <span>{index}</span>
+        <Link href={navObj.link}>{children}</Link>
       </li>
     </>
   );
