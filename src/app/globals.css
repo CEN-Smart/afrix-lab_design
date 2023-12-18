@@ -1,3 +1,6 @@
+/****************Instrument Sans import********************/
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -75,11 +78,25 @@
   }
 }
 
+/* Ahmet Design */
+.bg-about {
+  background: rgba(0 0 0/0.8) url('/images/webdev.jpeg') no-repeat center center;
+  font-family: Instrument Sans;
+  word-wrap: break-word;
+  text-transform: capitalize;
+}
+
+.web-dev-services {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 20px;
+}
+/* Ahmet Design */
+
 .bg-hero {
   background: rgba(0 0 0/0.8) url('/images/bg-hero.png') no-repeat center center;
   background-size: 100vw 100vh;
+  height: 100vh;
 }
-
 .navigation__background {
   width: 3rem;
   aspect-ratio: 1/1;
