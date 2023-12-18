@@ -9,12 +9,13 @@ export default function Hero() {
         </h1>
       </hgroup>
       <aside className=' self-end md:pr-[12rem] -mb-40 flex items-center'>
-        <p className=' font-title italic flex flex-col leading-relaxed md:text-2xl lg:text-4xl'>
+        <p className=' font-title italic flex flex-col leading-relaxed md:text-2xl lg:text-4xl text-white'>
           <span>Inspire</span>
           <span>Innovate</span>
           <span>Incubate</span>
         </p>
         <svg
+          className=' animate-bounce'
           xmlns='http://www.w3.org/2000/svg'
           width='126'
           height='126'
