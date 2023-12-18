@@ -1,11 +1,11 @@
 import Hero from '@/components/hero-section/Hero';
-import Webdesign from '@/components/web-design-section/Webdesign';
+import Footer from '@/components/footer-section/Footer';
 
 export default function HomePage() {
   return (
     <>
       <Hero />
-      {/* <Webdesign /> */}
+      <Footer />
     </>
   );
 }
