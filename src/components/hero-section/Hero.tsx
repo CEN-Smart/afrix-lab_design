@@ -8,7 +8,7 @@ export default function Hero() {
           Blockchain Solutions
         </h1>
       </hgroup>
-      <aside className=' self-end pr-16 md:pr-[12rem] -mb-40 flex items-center'>
+      <aside className=' self-end md:pr-[12rem] -mb-40 flex items-center'>
         <p className=' font-title italic flex flex-col leading-relaxed md:text-2xl lg:text-4xl'>
           <span>Inspire</span>
           <span>Innovate</span>
