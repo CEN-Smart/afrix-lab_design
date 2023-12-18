@@ -5,6 +5,7 @@ import { ChakraProviders } from '@/providers/chakraprovider';
 import React from 'react';
 import { cn } from '@/lib/utils';
 import Navbar from '@/components/header/Header';
+import Footer from '@/components/footer-section/Footer';
 
 const bodyFont = Instrument_Sans({
   subsets: ['latin'],
@@ -40,6 +41,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <ChakraProviders>
           <Navbar />
           {children}
+          <Footer />
         </ChakraProviders>
       </body>
     </html>
