@@ -102,10 +102,8 @@
   aspect-ratio: 1/1;
   border-radius: 50%;
   position: relative;
-  margin-top: -1.5rem;
-  /* position: fixed;
-  top: 6.5rem;
-  right: 6.5rem; */
+  margin-top: -1.55rem;
+  transition: 0.5s;
   background-image: radial-gradient(#b5f93e, #c6fc50);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
@@ -117,7 +115,7 @@
   border-radius: 50%;
   position: relative;
   top: 0.5rem;
-  right: -0.72rem;
+  right: -0.73rem;
   cursor: pointer;
   z-index: 2000;
   text-align: center;
@@ -147,6 +145,7 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .navigation__item {
@@ -160,12 +159,13 @@
   background-size: 220%;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  transition: all 0.2s;
+  transition: 0.2s;
   &:hover,
   &:active {
     background-position: 100%;
     transform: translateX(1rem);
   }
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .navigation__checkbox:checked ~ .navigation__nav {
@@ -226,12 +226,12 @@
 
 .navigation__icon::before {
   top: -0.4rem;
-  transition: all 0.2s;
+  transition: 0.5s;
 }
 
 .navigation__icon::after {
   top: 0.4rem;
-  transition: all 0.2s;
+  transition: 0.5s;
 }
 
 .navigation__button:hover .navigation__icon::before {
