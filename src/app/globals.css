@@ -1,3 +1,6 @@
+/****************Instrument Sans import********************/
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -75,20 +78,32 @@
   }
 }
 
+/* Ahmet Design */
+.bg-about {
+  background: rgba(0 0 0/0.8) url('/images/webdev.jpeg') no-repeat center center;
+  font-family: Instrument Sans;
+  word-wrap: break-word;
+  text-transform: capitalize;
+}
+
+.web-dev-services {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 20px;
+}
+/* Ahmet Design */
+
 .bg-hero {
   background: rgba(0 0 0/0.8) url('/images/bg-hero.png') no-repeat center center;
   background-size: 100vw 100vh;
+  height: 100vh;
 }
-
 .navigation__background {
   width: 3rem;
   aspect-ratio: 1/1;
   border-radius: 50%;
   position: relative;
-  margin-top: -1.5rem;
-  /* position: fixed;
-  top: 6.5rem;
-  right: 6.5rem; */
+  margin-top: -1.55rem;
+  transition: 0.5s;
   background-image: radial-gradient(#b5f93e, #c6fc50);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
@@ -100,7 +115,7 @@
   border-radius: 50%;
   position: relative;
   top: 0.5rem;
-  right: -0.72rem;
+  right: -0.73rem;
   cursor: pointer;
   z-index: 2000;
   text-align: center;
@@ -130,6 +145,7 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .navigation__item {
@@ -143,7 +159,7 @@
   background-size: 220%;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  transition: all 0.2s;
+  transition: 0.2s;
   &:hover,
   &:active {
     background-position: 100%;
@@ -209,12 +225,12 @@
 
 .navigation__icon::before {
   top: -0.4rem;
-  transition: all 0.2s;
+  transition: 0.5s;
 }
 
 .navigation__icon::after {
   top: 0.4rem;
-  transition: all 0.2s;
+  transition: 0.5s;
 }
 
 .navigation__button:hover .navigation__icon::before {
@@ -239,13 +255,140 @@
   transform: rotate(-135deg);
 }
 
-.footer-section{
-  background: url('/images/bg-cta.png') no-repeat center center; 
+.bottom-sections{
+   background: url('/images/ring-bg.png'), url('/images/drop-bg.png');
+  background-repeat: no-repeat; 
+  background-position: top 28% right, bottom 33% right;
+  background-size:  35%, 30%;
   background-color: black;
+}
+
+.blog-section{
   padding: 3%;
 }
 
-.footer-section > .overlay{
+.blog-section .blog-item:nth-of-type(odd){
+  margin-left: auto;
+  
+}
+
+.blog-section .blog-section-1{
+  display: flex;
+  flex-direction: column;
+ }
+
+
+.blog-section .blog-item{
+  display: flex;
+  column-gap: 24px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+
+}
+
+.blog-section .blog-info{
+  margin-top: auto;
+  row-gap: 24px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.blog-section .blog-cat{
+  display: flex;
+  column-gap: 8px;
+  :nth-child(n){
+    padding: 4px 8px;   
+    font-size: 12px;
+    border-radius: 4px;
+
+  }
+  :nth-child(1){
+    color: #06102B;
+    background: #E8EDFB;
+  }
+  :nth-child(2){
+    color: #064E3B;
+    background: #ECFDF5;
+  }
+  :nth-child(3){
+    color: #78350F;
+    background: #FFFBEB;
+  }
+}
+
+.blog-section .blog-title{
+color: #FFF;
+font-size: 16px;
+font-weight: 500;
+text-transform: capitalize;
+width: 231px;
+}
+
+.blog-section .blog-link{
+  display: flex;
+  column-gap: 8px;
+}
+
+.cta-section{
+  background: url('/images/swirl-bg.png') no-repeat center center;
+  background-size: 30%;
+  padding: 3%;
+}
+
+.cta-section > .overlay{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cta-section .overlay> h5{
+  margin-right: auto;
+   
+}
+
+.cta-section .overlay> .cta-content{
+  margin: auto; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cta-section .overlay h1{
+  margin-bottom: 40px;  
+  color: #9E9E9E;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: normal;
+  text-align: center;
+}
+
+.italics{
+  font-style: italic;
+  color: #FFF;
+  font-family: Libre Caslon Condensed;
+  text-transform: lowercase;
+}
+.cta-section strong{
+  color: #FFF;
+}
+
+.cta-section button{
+  color: #000;
+  font-size: 20px;
+   text-align: center;
+}
+
+.footer-section{
+  background: url('/images/footer-2.png') no-repeat bottom left;
+  background-size: 30%;
+  padding: 3%;
+}
+
+.footer-section > .overlay, .cta-section> .overlay,  .blog-section > .overlay{
   border-radius: 32px;
   border: 1px solid rgba(255, 255, 255, 0.32);
   background: rgba(0, 0, 0, 0.8);  
@@ -254,7 +397,6 @@
   -webkit-backdrop-filter: blur(5px);
   height: 100%;
   width: 100%;
-  /* padding: 48px 80px; */
   padding: 2.7% 4.5%;
 
 }
@@ -296,9 +438,9 @@
   padding: 8px 16px;
   align-items: center;
   border-radius: 8px;
-  border: 1px solid var(--Neutral-Gray-700, #616161);
+  border: 1px solid #616161;
   height: fit-content;
-  margin-top: 40%;
+  margin-top: 23%;
   white-space: nowrap;
 }
 
@@ -309,15 +451,41 @@
 
 .footer-section .footer-lists ul{
   list-style: none;
-font-size: 14px;
-font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
 
+:first-child{ 
+  color: #9E9E9E;
+  font-size: 16px;
+  font-weight: 400;}
 :last-child{
   margin-top: 50px;
 }
 }
 
+@media screen and (max-width: 800px) {
+  .bottom-sections{
+  background-size:  50%, 50%;
+  background-position: top 32% right, bottom 33% right;
+}
+
+  .cta-section{
+    background-size: 50%;
+  }
+  .footer-section .button{
+    margin-top: 54%;
+  }
+
+}
+
 @media screen and (max-width: 650px) {
+.cta-section .overlay> h1{
+  font-size: 2.5rem;
+  text-align: center;
+}
+
   .footer-section .footer-title{
     text-align: center;
     margin-top: 40px;
