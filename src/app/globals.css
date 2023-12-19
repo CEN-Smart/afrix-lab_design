@@ -80,11 +80,17 @@
   background-size: 100vw 100vh;
   height: 100vh;
 }
+
+.navigation {
+  position: relative;
+  z-index: 1000;
+  width: 3rem;
+}
 .navigation__background {
   width: 3rem;
   aspect-ratio: 1/1;
   border-radius: 50%;
-  position: relative;
+  position: absolute;
   margin-top: -1.55rem;
   transition: 0.5s;
   background-image: radial-gradient(#b5f93e, #c6fc50);
@@ -96,12 +102,14 @@
   width: 4rem;
   aspect-ratio: 1/1;
   border-radius: 50%;
-  position: relative;
-  top: 0.5rem;
-  right: -0.73rem;
+  position: absolute;
+  top: -2rem;
+  left: -0.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   z-index: 2000;
-  text-align: center;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
 }
 
