@@ -40,17 +40,17 @@ export default function Hero() {
             <path
               d='M62.7695 92.4928L62.7695 24.8564'
               stroke='white'
-              stroke-width='3.99998'
+              strokeWidth='3.99998'
             />
             <path
               d='M40.2239 76.21C45.9512 76.21 62.7696 81.4221 62.7695 102.028'
               stroke='white'
-              stroke-width='3.99998'
+              strokeWidth='3.99998'
             />
             <path
               d='M85.3164 76.21C79.5891 76.21 62.7708 81.422 62.7708 102.028'
               stroke='white'
-              stroke-width='3.99998'
+              strokeWidth='3.99998'
             />
           </g>
         </svg>

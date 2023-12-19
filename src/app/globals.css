@@ -142,12 +142,13 @@
   background-size: 220%;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  transition: 0.2s;
-  &:hover,
-  &:active {
-    background-position: 100%;
-    transform: translateX(1rem);
-  }
+  transition: 0.5s;
+}
+
+.navigation__item:hover,
+.navigation__item:active {
+  background-position: 100%;
+  transform: translateX(1rem);
 }
 
 .navigation__checkbox:checked ~ .navigation__nav {
