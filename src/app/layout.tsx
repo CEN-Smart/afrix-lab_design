@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   title: 'Afrix Lab',
   description:
     'Afrix Lab is a blockchain development company based in Lagos, Nigeria.',
+  icons: {
+    icon: 'favicon.ico',
+  },
 };
 
 type RootLayoutProps = {
