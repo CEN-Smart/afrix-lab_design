@@ -15,7 +15,6 @@ export default function Hero() {
           <span>Incubate</span>
         </p>
         <svg
-          className=' animate-bounce'
           xmlns='http://www.w3.org/2000/svg'
           width='126'
           height='126'
