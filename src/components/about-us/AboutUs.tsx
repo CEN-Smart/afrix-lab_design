@@ -9,7 +9,7 @@ export default function AboutUs() {
         <div className=' flex flex-col gap-32'>
           <hgroup className=' text-white flex justify-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl '>
             <h3 className=' leading-[1.1]'>
-              <h4 className=' ml-[3.2rem] lg:ml-[7.25rem] '>
+              <h4 className=' ml-[1rem] lg:ml-[7.25rem] '>
                 With Emotion, Innovation,
               </h4>
               <p className=''>We Push The Boundaries</p>
