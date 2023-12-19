@@ -13,21 +13,21 @@ export default function ProductDesign() {
           <div className='flex flex-col gap-4 w-full'>
             <span className='flex gap-4 flex-col md:flex-row items-center'>
               <Button label='Product' blur className='text-white w-[260px]' />
-              <Button label='Product' blur className='text-white w-[260px]' />
+              <Button label='Web' blur className='text-white w-[260px]' />
             </span>
             <span className='flex gap-4 justify-center flex-col md:flex-row'>
               <Button
-                label='Product'
+                label='Mobile'
                 blur
                 className='text-white w-[260px] md:w-[130px]'
               />
               <Button
-                label='Product'
+                label='App'
                 blur
                 className='text-white w-[260px] md:w-[130px]'
               />
               <Button
-                label='Product'
+                label='UX/UI'
                 blur
                 className='text-white w-[260px] md:w-[130px]'
               />
