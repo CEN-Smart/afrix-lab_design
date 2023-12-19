@@ -4,6 +4,7 @@ import AboutUs from '@/components/about-us/AboutUs';
 import Featuredprojects from '@/components/featured-projects/FeaturedProjects';
 import OurServices from '@/components/services/OurServices';
 import ProductDesign from '@/components/services/ProductDesign';
+import ScrollToTopButton from '@/components/footer-section/ScrollToTop';
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <OurServices />
       <ProductDesign />
       <BottomSections />
+      <ScrollToTopButton />
     </>
   );
 }
