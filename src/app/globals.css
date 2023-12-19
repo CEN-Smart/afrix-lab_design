@@ -480,6 +480,21 @@ width: 231px;
 
 }
 
+@media screen and (max-width: 680px) {
+  .bottom-sections{
+  background-size:  50%, 50%;
+  background-position: top 1150px right, bottom 650px right;
+}
+
+  .cta-section{
+    background-size: 50%;
+  }
+  .footer-section .button{
+    margin-top: 54%;
+  }
+
+}
+
 @media screen and (max-width: 650px) {
 .cta-section .overlay> h1{
   font-size: 2.5rem;
