@@ -1,7 +1,6 @@
 import arrow from '/public/images/arrow.svg';
 import Image from 'next/image';
 import Link from 'next/link';
-// import arrow from '/images/arrow.svg';
 
 const data = [
   {
@@ -34,8 +33,8 @@ export default function Blogs() {
                 <Image
                   src={item.img}
                   alt={item.title}
-                  width="329"
-                  height="324"
+                  width='329'
+                  height='324'
                   className='blog-img'
                 />
                 <div className='blog-info'>
@@ -44,13 +43,11 @@ export default function Blogs() {
                     <span>{item.year}</span>
                     <span>{item.cat2}</span>
                   </div>
-                  <p className='blog-title font-body'>
-                    {item.title}
-                  </p>          
-                    <Link href={item.link} className='blog-link'>
-                      Read
-                      <Image src={arrow} alt='arrow' width={32} height={18} />                  
-                    </Link>                  
+                  <p className='blog-title font-body'>{item.title}</p>
+                  <Link href={item.link} className='blog-link'>
+                    Read
+                    <Image src={arrow} alt='arrow' width={32} height={18} />
+                  </Link>
                 </div>
               </div>
             ))}

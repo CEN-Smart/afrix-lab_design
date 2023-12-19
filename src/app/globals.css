@@ -361,7 +361,7 @@
 }
 
 .footer-section {
-  background: url('/images/footer-2.png') no-repeat bottom left;
+  background: #000 url('/images/footer-2.png') no-repeat bottom left;
   background-size: 30%;
   padding: 3%;
 }

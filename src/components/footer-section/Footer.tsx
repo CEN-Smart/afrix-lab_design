@@ -3,10 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 export default function Footer() {
   return (
-    <section
-      id='footer'
-      className=' footer-section min-h-screen grid place-items-center text-white'
-    >
+    <section className=' footer-section min-h-screen grid place-items-center text-white '>
       <div className='overlay'>
         <h5 className='font-body '>Footer</h5>
         <section>
