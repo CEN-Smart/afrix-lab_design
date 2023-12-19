@@ -239,6 +239,10 @@
   transform: rotate(-135deg);
 }
 
+.bg__about {
+  background: #000 url('/images/swirl-bg.png') no-repeat center center;
+}
+
 .bottom-sections {
   background: url('/images/ring-bg.png'), url('/images/drop-bg.png');
   background-repeat: no-repeat;

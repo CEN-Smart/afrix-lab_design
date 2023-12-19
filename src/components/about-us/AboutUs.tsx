@@ -4,7 +4,7 @@ import Button from '../buttons/Button';
 
 export default function AboutUs() {
   return (
-    <div className='bg-black py-10'>
+    <div className='bg__about  py-10 relative'>
       <Overlay section='About Us'>
         <div className=' flex flex-col gap-32'>
           <hgroup className=' text-white flex justify-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl '>

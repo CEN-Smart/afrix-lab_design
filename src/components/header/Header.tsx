@@ -6,7 +6,7 @@ import Navigation from './Navigation';
 export default function Navbar() {
   return (
     <header role='banner' className='relative'>
-      <div className=' max-w-[1200px] w-full rounded-[32px] bg-black/20 backdrop-filter-[16px] px-4 md:px-16 h-[72px] flex items-center justify-between fixed z-[99] top-[2rem] lg:top-[4rem] left-1/2 -translate-x-1/2'>
+      <div className=' max-w-[1200px] w-full rounded-[32px] bg-black/20 backdrop-blur-[16px] px-4 md:px-16 h-[72px] flex items-center justify-between fixed z-[99] top-[2rem] lg:top-[4rem] left-1/2 -translate-x-1/2'>
         <Logo
           image='/images/logo.png'
           className='w-12 rounded-full block aspect-square overflow-hidden '
