@@ -286,6 +286,17 @@
   background-position: center;
 }
 
+.bg__web--design {
+  background: url('/images/webdev-2.jpeg') no-repeat center center/cover;
+}
+
+.bg__web--design-overlay {
+  background: rgba(0 0 0/0.8) url('/images/webdev.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 /* Oghor Design */
 .bottom-sections {
   background: url('/images/ring-bg.png'), url('/images/drop-bg.png');

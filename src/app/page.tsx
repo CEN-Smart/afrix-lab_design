@@ -5,6 +5,7 @@ import Featuredprojects from '@/components/featured-projects/FeaturedProjects';
 import OurServices from '@/components/services/OurServices';
 import ProductDesign from '@/components/services/ProductDesign';
 import ScrollToTopButton from '@/components/footer-section/ScrollToTop';
+import WebDesign from '@/components/services/WebDesign';
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Featuredprojects />
       <OurServices />
       <ProductDesign />
+      <WebDesign />
       <BottomSections />
       <ScrollToTopButton />
     </>
