@@ -10,11 +10,13 @@ type NavListProps = {
   index?: string;
   children: React.ReactNode;
   onClick?: () => void;
+  onNavClick?: () => void;
 };
 
 export default function NavList({
   navObj,
   onClick,
+  onNavClick,
   index,
   children,
   className,
@@ -23,9 +25,9 @@ export default function NavList({
   return (
     <>
       <li
-        onClick={onClick}
+        onClick={onClick ? onClick : onNavClick}
         className={cn(
-          `list-none navigation__item font-[600]  px-4 py-2 flex gap-3 ${className}`,
+          `list-none navigation__item font-[600]  px-4 py-2 flex gap-3 cursor-pointer ${className}`,
           {
             'translate-x-4 bg-[#54890533]/20 shadow-xl rounded-[12px] font-extrabold text-[#548905]':
               pathname === navObj.link,
