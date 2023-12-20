@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AfrixLab - AfrixLab
 
-## Getting Started
+![AfrixLab](public/images/logo.png)
 
-First, run the development server:
+- [AfrixLab - AfrixLab](#afrixlab---afrixlab)
+  - [What to expect](#what-to-expect)
+  - [What we do](#what-we-do)
+  - [Contact](#contact)
+  - [License](#license)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## What to expect
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Afrix Lab is a blockchain development company based in Lagos, Nigeria. We are a team of developers, designers, and business analysts with a passion for blockchain technology. We are focused on building blockchain solutions for businesses and governments across Africa.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## What we do
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+We build blockchain solutions and provide blockchain consulting services for businesses and governments across Africa. We also provide blockchain education and training for individuals and organizations.
 
-## Learn More
+## Contact
 
-To learn more about Next.js, take a look at the following resources:
+Afrix Lab is a blockchain development company based in Lagos, Nigeria. We are a team of developers, designers, and business analysts with a passion for blockchain technology. We are focused on building blockchain solutions for businesses and governments across Africa.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![Email](https://img.shields.io/badge/Email-afrixlab%40gmail.com-blue)](mailto:admin@afrixlabs.me)
+[![Twitter](https://img.shields.io/badge/Twitter-%40afrixlab-blue)](https://twitter.com/afrixlab)
+[![Facebook](https://img.shields.io/badge/Facebook-%40afrixlab-blue)](https://facebook.com/afrixlab)
+[![Instagram](https://img.shields.io/badge/Instagram-%40afrixlab-blue)](https://instagram.com/afrixlab)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%40afrixlab-blue)](https://linkedin.com/company/afrixlab)
+[![Website](https://img.shields.io/badge/Website-afrixlab.com-blue)](https://afrix-lab-design.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-%40afrixlab-blue)](https://github.com/afrixlab)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+MIT © [AfrixLab](https://afrix-lab-design.vercel.app/)
