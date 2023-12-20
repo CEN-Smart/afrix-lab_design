@@ -25,6 +25,9 @@ module.exports = {
         body: ['var(--font-body)'],
         title: ['var(--font-title)'],
       },
+      textWrap: {
+        balance: 'balance',
+      },
       boxShadow: {
         button: '0 5px 15px -5px rgba(0, 0, 0, 0.2)',
         'button-focus': '0 0 0 3px var(--ring)',

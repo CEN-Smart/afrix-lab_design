@@ -75,6 +75,10 @@
   }
 }
 
+.balance {
+  text-wrap: balance;
+}
+
 .bg-hero {
   background: rgba(0 0 0/0.8) url('/images/bg-hero.png') no-repeat center center;
   background-size: 100vw 100vh;

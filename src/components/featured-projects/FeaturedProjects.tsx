@@ -1,4 +1,3 @@
-import React from 'react';
 import Overlay from '../overlay/Overlay';
 import Button from '../buttons/Button';
 
@@ -28,7 +27,7 @@ export default function Featuredprojects() {
               icon='/images/arrow.svg'
               label='Read Case Study'
             />
-            <p className=' basis-[100%] lg:basis-1/2 flex flex-col gap-16 shrink-0'>
+            <p className=' basis-[100%] lg:basis-1/2 flex flex-col gap-16 shrink-0 balance'>
               <span>
                 <span className='text-white'>
                   Detailed description of project:
