@@ -4,15 +4,15 @@ import Button from '../buttons/Button';
 
 export default function Featuredprojects() {
   return (
-    <div className=' bg__featured py-10 relative'>
+    <div className='relative py-10 bg__featured'>
       <Overlay section='Featured Projects'>
-        <div className=' flex flex-col gap-32 justify-center items-center'>
-          <div className='w-full max-w-[450px] h-[385px] relative '>
+        <div className='flex flex-col items-center justify-center gap-32 '>
+          <div className=' w-[250px] h-[250px] md:w-[450px] md:h-[385px] relative '>
             <picture>
               <img
                 src='/images/feature.jpeg'
                 alt='Colorful Image'
-                className='w-full h-full object-cover'
+                className='object-cover w-full h-full'
               />
             </picture>
             <p className=' md:bottom-[1.25rem] md:-right-12 text-white font-title  absolute'>
@@ -24,7 +24,7 @@ export default function Featuredprojects() {
           </div>
           <div className='flex justify-between gap-2 w-full flex-col lg:flex-row  text-[#9E9E9E]'>
             <Button
-              className=' self-end shrink-0 order-1 lg:-order-1 mt-8 lg:mt-0'
+              className='self-end order-1 mt-8 shrink-0 lg:-order-1 lg:mt-0'
               icon='/images/arrow.svg'
               label='Read Case Study'
             />

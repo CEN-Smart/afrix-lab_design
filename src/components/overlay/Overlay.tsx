@@ -16,7 +16,7 @@ export default function Overlay({
       <h5 className='absolute top-10 left-8 lg:left-20 text-[#9E9E9E]'>
         {section}
       </h5>
-      <div className='w-[95%]  md:w-[90%] mx-auto flex items-center justify-center h-full'>
+      <div className='w-[95%]  md:w-[90%] mx-auto flex items-center justify-center h-full px-1 md:p-0'>
         {children}
       </div>
     </section>
