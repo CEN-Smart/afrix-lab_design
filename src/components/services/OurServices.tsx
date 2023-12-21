@@ -8,7 +8,7 @@ export default function OurServices() {
       <Overlay section='Our Services'>
         <div className='flex flex-col gap-10 lg:gap-32 '>
           <hgroup className='flex justify-center text-2xl text-white  md:text-3xl lg:text-4xl xl:text-5xl'>
-            <h3 className=' leading-[1.1]'>
+            <h3 className=' leading-[1.4]'>
               <h4 className=' ml-[1rem] lg:ml-[7.25rem]'>
                 Using digital transformation
               </h4>

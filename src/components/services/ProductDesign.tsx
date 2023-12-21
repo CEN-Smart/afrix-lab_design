@@ -7,8 +7,10 @@ export default function ProductDesign() {
     <div className=' bg__product--design py-10 relative'>
       <Overlay section='Our Services' className='bg__product--design-overlay'>
         <div className=' flex flex-col gap-10 lg:gap-32'>
-          <hgroup className=' text-white flex justify-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl '>
-            <h3 className=' leading-[1.1] font-title'>Product Design</h3>
+          <hgroup className=' text-white flex justify-center  '>
+            <h3 className=' leading-[1.7] font-title italic text-2xl md:text-4xl lg:text-[48px]'>
+              Product Design
+            </h3>
           </hgroup>
           <div className='flex flex-col gap-4 w-full'>
             <span className='flex gap-4 flex-col md:flex-row items-center'>

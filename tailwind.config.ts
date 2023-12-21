@@ -1,3 +1,4 @@
+const { fontFamily } = require('tailwindcss/defaultTheme');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ['class'],
@@ -22,8 +23,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        body: ['var(--font-body)'],
-        title: ['var(--font-title)'],
+        body: ['var(--font-body)', ...fontFamily.sans],
+        title: ['var(--font-title)', ...fontFamily.sans],
       },
       textWrap: {
         balance: 'balance',

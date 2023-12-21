@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/libre-caslon-condensed');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -33,6 +36,9 @@
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
+
+    --font-body: 'Instrument Sans', sans-serif;
+    --font-title: 'Libre Caslon Condensed', serif;
   }
 
   .dark {
