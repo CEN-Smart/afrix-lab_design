@@ -1,5 +1,3 @@
-// generate a complete loading component with tailwind classes
-
 export default function Loading() {
   return (
     <div className='loading__container'>

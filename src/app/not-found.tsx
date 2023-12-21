@@ -1,5 +1,3 @@
-// Create a nice Not Found page with tailwindcss classes and a link to the home page with a custom image and text.
-
 import Link from 'next/link';
 
 const NotFound = () => {
