@@ -1,6 +1,8 @@
-import arrow from '/public/images/arrow.svg';
+// import arrow from '/public/images/arrow.svg';
+import Overlay from '../overlay/Overlay';
+import Button from '../buttons/Button';
 import Image from 'next/image';
-import Link from 'next/link';
+// import Link from 'next/link';
 
 const data = [
   {
@@ -23,37 +25,35 @@ const data = [
 
 export default function Blogs() {
   return (
-    <section className=' blog-section min-h-screen grid place-items-center text-white font-body'>
-      <div className='overlay'>
-        <h5 className='font-body'>Blogs</h5>
-        <div className='blog-content'>
-          <section className='blog-section-1'>
-            {data.map((item, index) => (
-              <div className='blog-item' key={index}>
-                <Image
-                  src={item.img}
-                  alt={item.title}
-                  width='329'
-                  height='324'
-                  className='blog-img'
-                />
-                <div className='blog-info'>
-                  <div className='blog-cat'>
-                    <span>{item.cat1}</span>
-                    <span>{item.year}</span>
-                    <span>{item.cat2}</span>
-                  </div>
-                  <p className='blog-title font-body'>{item.title}</p>
-                  <Link href={item.link} className='blog-link'>
-                    Read
-                    <Image src={arrow} alt='arrow' width={32} height={18} />
-                  </Link>
+    <section className=' blog-section text-white font-body relative py-10'>
+      <Overlay section='Blogs' className='blogs'>
+        <section className='blog-section-1'>
+          {data.map((item, index) => (
+            <div className='blog-item' key={index}>
+              <Image
+                src={item.img}
+                alt={item.title}
+                width='329'
+                height='324'
+                className='blog-img'
+              />
+              <div className='blog-info'>
+                <div className='blog-cat'>
+                  <span>{item.cat1}</span>
+                  <span>{item.year}</span>
+                  <span>{item.cat2}</span>
                 </div>
+                <p className='blog-title font-body'>{item.title}</p>                
+                <Button
+                  className='blog-link'
+                  icon='/images/arrow.svg'
+                  label='Read'                  
+                />
               </div>
-            ))}
-          </section>
-        </div>
-      </div>
+            </div>
+          ))}
+        </section>
+      </Overlay>
     </section>
   );
 }

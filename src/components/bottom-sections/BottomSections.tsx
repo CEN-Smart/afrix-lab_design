@@ -7,6 +7,7 @@ export default function BottomSections() {
     <section className='bottom-sections'>
       <Blogs />
       <Cta />
+      <Footer />
     </section>
   );
 }
