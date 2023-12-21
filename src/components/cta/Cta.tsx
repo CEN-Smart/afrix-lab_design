@@ -7,7 +7,7 @@ export default function Cta() {
       <Overlay section='CTA' className='cta'>
         <div className='cta-content'>
           <h1 className='md:text-3xl lg:text-5xl leading-6 relative -top-8 sm:top-0 font-body uppercase'>
-            Where <span className=' italics'>difference</span>{' '}
+            Where <span className=' italics font-title'>difference</span>{' '}
             <span className='uppercase'>is the standard, chose</span>{' '}
             <span className='text-white'>AFRIX LABS</span>
           </h1>

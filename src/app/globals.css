@@ -159,7 +159,17 @@
 .bg-hero {
   background: rgba(0 0 0/0.8) url('/images/bg-hero.png') no-repeat center center;
   background-size: 100vw 100vh;
-  height: 100vh;
+  height: 50vh;
+  padding-bottom: 2rem;
+}
+
+@media screen(lg) {
+  .bg-hero {
+    background: rgba(0 0 0/0.8) url('/images/bg-hero.png') no-repeat center
+      center;
+    background-size: 100vw 100vh;
+    height: 100vh;
+  }
 }
 
 .navigation {

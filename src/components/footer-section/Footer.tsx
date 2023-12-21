@@ -11,7 +11,7 @@ export default function Footer() {
         <section>
           <div className='footer-title md:text-3xl lg:text-5xl leading-6 relative -top-8 sm:top-0 font-body'>
             <p className='tab-space font-body'> Ready for the,</p>
-            <p className=' font-body'>
+            <p className='font-body'>
               Next<span className=' italics font-title'> big thing?</span>
             </p>
           </div>

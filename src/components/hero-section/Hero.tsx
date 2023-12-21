@@ -1,14 +1,14 @@
 export default function Hero() {
   return (
-    <section className='bg-hero flex flex-col justify-center items-center text-white gap-16'>
-      <hgroup className='md:text-3xl lg:text-5xl leading-6 -top-16 md:top-0 relative'>
+    <section className='bg-hero flex flex-col justify-center items-center text-white pt-40  lg:gap-16'>
+      <hgroup className='md:text-3xl lg:text-5xl leading-6 relative'>
         <h1> Building</h1>
         <h1> Innovative </h1>
         <h1 className=' font-title italic font-[600] mt-1'>
           Blockchain Solutions
         </h1>
       </hgroup>
-      <aside className='max-w-[1200px] ml-auto xl:pr-[7rem]  -mb-40 flex items-center'>
+      <aside className='max-w-[1200px] ml-auto xl:pr-[7rem] flex items-center'>
         <p className=' font-title italic flex flex-col leading-relaxed md:text-2xl lg:text-4xl text-white'>
           <span>Inspire</span>
           <span>Innovate</span>

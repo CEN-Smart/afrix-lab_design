@@ -5,7 +5,7 @@ export default function Featuredprojects() {
   return (
     <div className='relative py-10 bg__featured'>
       <Overlay section='Featured Projects'>
-        <div className='flex flex-col items-center justify-center gap-32 '>
+        <div className='flex flex-col items-center justify-center gap-10 lg:gap-32 '>
           <div className=' w-[250px] h-[250px] md:w-[450px] md:h-[385px] relative '>
             <picture>
               <img
@@ -27,7 +27,7 @@ export default function Featuredprojects() {
               icon='/images/arrow.svg'
               label='Read Case Study'
             />
-            <p className=' basis-[100%] lg:basis-1/2 flex flex-col gap-16 shrink-0  text-sm md:text-lg'>
+            <p className=' basis-[100%] lg:basis-1/2 flex flex-col gap-5 lg:gap-16 shrink-0  text-sm md:text-lg'>
               <span>
                 <span className='text-white'>
                   Detailed description of project:

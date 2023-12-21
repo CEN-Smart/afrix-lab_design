@@ -6,7 +6,7 @@ export default function ProductDesign() {
   return (
     <div className=' bg__product--design py-10 relative'>
       <Overlay section='Our Services' className='bg__product--design-overlay'>
-        <div className=' flex flex-col gap-32'>
+        <div className=' flex flex-col gap-10 lg:gap-32'>
           <hgroup className=' text-white flex justify-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl '>
             <h3 className=' leading-[1.1] font-title'>Product Design</h3>
           </hgroup>

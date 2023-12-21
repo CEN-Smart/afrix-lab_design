@@ -6,7 +6,7 @@ export default function WebDesign() {
   return (
     <div className=' bg__web--design py-10 relative'>
       <Overlay section='Our Services' className='bg__web--design-overlay'>
-        <div className=' flex flex-col gap-32'>
+        <div className=' flex flex-col gap-10 lg:gap-32'>
           <hgroup className=' text-white flex justify-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl '>
             <h3 className=' leading-[1.1] font-title'>Web Development</h3>
           </hgroup>

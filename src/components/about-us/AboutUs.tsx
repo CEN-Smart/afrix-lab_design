@@ -6,7 +6,7 @@ export default function AboutUs() {
   return (
     <div className='relative py-10 bg__about'>
       <Overlay section='About Us'>
-        <div className='flex flex-col gap-32 '>
+        <div className='flex flex-col gap-10 lg:gap-32 '>
           <hgroup className='flex justify-center text-2xl text-white md:text-3xl lg:text-4xl xl:text-5xl'>
             <h3 className=' leading-[1.1]'>
               <h4 className=' ml-[1rem] lg:ml-[7.25rem] '>
@@ -24,7 +24,7 @@ export default function AboutUs() {
               icon='/images/arrow.svg'
               label='Read more'
             />
-            <p className=' basis-[100%] lg:basis-1/2 flex flex-col gap-16 shrink-0  text-sm md:text-lg'>
+            <p className=' basis-[100%] lg:basis-1/2 flex flex-col gap-5 lg:gap-16 shrink-0  text-sm md:text-lg'>
               <span>
                 At Afrix labs, products come first. sometimes that means taking
                 an existing app and helping its creators make it much better
