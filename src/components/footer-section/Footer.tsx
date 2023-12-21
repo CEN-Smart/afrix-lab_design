@@ -6,7 +6,7 @@ import Button from '../buttons/Button';
 
 export default function Footer() {
   return (
-    <section className=' footer-section min-h-screen grid place-items-center text-white '>
+    <section className=' footer-section relative py-10 text-white '>
       <Overlay section='Footer' className='footer'>
         <section>
           <div className='footer-title md:text-3xl lg:text-5xl leading-6 relative -top-8 sm:top-0 font-body'>

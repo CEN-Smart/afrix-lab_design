@@ -414,13 +414,14 @@
 .blog-section .blog-section-1 {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
+  row-gap: 40px;
 }
 
 .blog-section .blog-item {
   display: flex;
   column-gap: 24px;
-  margin: 40px 0;
+  /* margin: 40px 0; */
   flex-wrap: wrap;
 }
 
@@ -473,16 +474,13 @@
 }
 
 .cta-section .cta-content {
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  margin-top: 30px;
 }
+
 .footer-section .footer,
 .cta-section .cta {
-  width: 100%;
-  height: 90%;
+  /* width: 100%; */
+  /* height: 90%; */
 }
 .cta-section h1 {
   margin-bottom: 40px;
@@ -490,8 +488,8 @@
   font-size: 40px;
   font-weight: 400;
   text-transform: capitalize;
-  line-height: normal;
   text-align: center;
+  line-height: 1.4;
 }
 
 .italics {
@@ -591,10 +589,16 @@
   }
 }
 
+@media screen and (max-width: 990px) {
+  .bottom-sections {
+    background-size: 40%;
+    background-position: top 42% right, bottom 33% right;
+  }}
+
 @media screen and (max-width: 800px) {
   .bottom-sections {
-    background-size: 50%, 50%;
-    background-position: top 32% right, bottom 33% right;
+    background-size: 50%;
+    /* background-position: top 32% right, bottom 33% right; */
   }
 
   .blog-section .blog-item {
@@ -603,7 +607,7 @@
     justify-content: center;
   }
   .blog-section .blog-item:nth-child(1) {
-    margin-top: 80px;
+    /* margin-top: 80px; */
   }
 
   .footer-section .footer-title,
@@ -657,7 +661,7 @@
 @media screen and (max-width: 630px) {
   .bottom-sections {
     background-size: 50%, 50%;
-    background-position: top 42% right, bottom 750px right;
+    background-position: top 54.6% right, bottom 620px right;
   }
 
   .footer-section .footer-title,
@@ -669,8 +673,8 @@
 
 @media screen and (max-width: 450px) {
   .bottom-sections {
-    background-size: 60%, 50%;
-    background-position: top 44% right, bottom 750px right;
+    /* background-size: 60%, 50%; */
+    /* background-position: top 55% right, bottom 620px right; */
   }
   .blog-img {
     width: 100%;
