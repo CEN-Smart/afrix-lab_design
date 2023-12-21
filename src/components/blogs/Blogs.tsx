@@ -32,7 +32,7 @@ export default function Blogs() {
       <Overlay section='Blogs' className='blogs'>
         <section className='blog-section-1'>
           {data.map(item => (
-            <div className='blog-item' key={item.title}>
+            <div className='blog-item' key={item.img}>
               <Image
                 src={item.img}
                 alt={item.title}
