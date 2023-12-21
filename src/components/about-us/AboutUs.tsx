@@ -8,7 +8,7 @@ export default function AboutUs() {
       <Overlay section='About Us'>
         <div className='flex flex-col gap-10 lg:gap-32 '>
           <div className='flex justify-center text-2xl text-white md:text-3xl lg:text-4xl xl:text-5xl'>
-            <div className=' leading-[1.1]'>
+            <div className=' leading-[1.2]'>
               <p className=' ml-[1rem] lg:ml-[7.25rem] '>
                 With Emotion, Innovation,
               </p>
