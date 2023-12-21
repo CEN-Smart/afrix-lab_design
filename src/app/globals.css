@@ -529,6 +529,16 @@
 
 .footer-section .tab-space {
   padding-left: 100px;
+  font-family: theme(fontFamily.body);
+}
+
+.footer-section .tab-space + p {
+  font-family: theme(fontFamily.body);
+}
+
+.footer-section .tab-space + p > span {
+  font-family: theme(fontFamily.title);
+  font-style: italic;
 }
 .footer-section .footer-content {
   width: 100%;

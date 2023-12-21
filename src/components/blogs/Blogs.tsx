@@ -2,9 +2,12 @@
 import Overlay from '../overlay/Overlay';
 import Button from '../buttons/Button';
 import Image from 'next/image';
-// import Link from 'next/link';
 
-const data = [
+type Data = {
+  [key: string]: string;
+};
+
+const data: Data[] = [
   {
     title: 'Key Factors to consider when choosing a UX design Agency',
     img: '/images/blog1.png',
@@ -28,8 +31,8 @@ export default function Blogs() {
     <section className=' blog-section text-white font-body relative py-10'>
       <Overlay section='Blogs' className='blogs'>
         <section className='blog-section-1'>
-          {data.map((item, index) => (
-            <div className='blog-item' key={index}>
+          {data.map(item => (
+            <div className='blog-item' key={item.title}>
               <Image
                 src={item.img}
                 alt={item.title}
@@ -43,11 +46,11 @@ export default function Blogs() {
                   <span>{item.year}</span>
                   <span>{item.cat2}</span>
                 </div>
-                <p className='blog-title font-body'>{item.title}</p>                
+                <p className='blog-title font-body'>{item.title}</p>
                 <Button
                   className='blog-link'
                   icon='/images/arrow.svg'
-                  label='Read'                  
+                  label='Read'
                 />
               </div>
             </div>
