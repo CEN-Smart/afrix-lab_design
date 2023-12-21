@@ -1,11 +1,13 @@
 import arrow from '/public/images/arrow.svg';
 import Image from 'next/image';
 import Link from 'next/link';
+import Overlay from '../overlay/Overlay';
+import Button from '../buttons/Button';
+
 export default function Footer() {
   return (
     <section className=' footer-section min-h-screen grid place-items-center text-white '>
-      <div className='overlay'>
-        <h5 className='font-body '>Footer</h5>
+      <Overlay section='Footer' className='footer'>
         <section>
           <div className='footer-title md:text-3xl lg:text-5xl leading-6 relative -top-8 sm:top-0 font-body'>
             <p className='tab-space'> Ready for the,</p>
@@ -14,15 +16,23 @@ export default function Footer() {
             </p>
           </div>
           <div className=' footer-content'>
-            <button className='button'>
-              Get in Touch
-              <Image src={arrow} alt='arrow' width='32' height='18' />
-            </button>
+            <Button
+              border
+              className='button'
+              icon='/images/arrow.svg'
+              label='Get in Touch'
+            />
             <div className='footer-info'>
               <h5 className='help-text font-body'>
                 We are ready and totally
                 <br /> excited to help you.
               </h5>
+              <Button
+                border
+                className='mobile-button'
+                icon='/images/arrow.svg'
+                label='Get in Touch'
+              />
               <div className='footer-lists font-body'>
                 <ul>
                   <Link href='#'>Quick links</Link>
@@ -44,7 +54,7 @@ export default function Footer() {
             </div>
           </div>
         </section>
-      </div>
+      </Overlay>
     </section>
   );
 }
