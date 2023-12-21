@@ -21,7 +21,7 @@ export default function OurServices() {
             </h3>
           </hgroup>
           <div className='flex justify-end gap-2 w-full flex-col lg:flex-row  text-[#9E9E9E]'>
-            <p className='  basis-[100%] lg:basis-1/2 flex flex-col gap-16 shrink-0 balance'>
+            <p className='  basis-[100%] lg:basis-1/2 flex flex-col gap-16 shrink-0  text-sm md:text-lg'>
               <span>
                 By combining Strategy, UI, UX, & Development best practices, we
                 use cutting-edge technology to develop inspiring products that

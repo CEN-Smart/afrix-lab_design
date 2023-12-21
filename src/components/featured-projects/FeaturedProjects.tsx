@@ -27,7 +27,7 @@ export default function Featuredprojects() {
               icon='/images/arrow.svg'
               label='Read Case Study'
             />
-            <p className=' basis-[100%] lg:basis-1/2 flex flex-col gap-16 shrink-0 balance'>
+            <p className=' basis-[100%] lg:basis-1/2 flex flex-col gap-16 shrink-0  text-sm md:text-lg'>
               <span>
                 <span className='text-white'>
                   Detailed description of project:

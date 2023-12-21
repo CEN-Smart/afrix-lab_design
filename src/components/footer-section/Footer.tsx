@@ -23,7 +23,7 @@ export default function Footer() {
               label='Get in Touch'
             />
             <div className='footer-info'>
-              <h5 className='help-text font-body'>
+              <h5 className='help-text font-body text-[#9E9E9E]'>
                 We are ready and totally
                 <br /> excited to help you.
               </h5>

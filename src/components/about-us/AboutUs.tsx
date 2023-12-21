@@ -24,7 +24,7 @@ export default function AboutUs() {
               icon='/images/arrow.svg'
               label='Read more'
             />
-            <p className=' basis-[100%] lg:basis-1/2 flex flex-col gap-16 shrink-0 balance'>
+            <p className=' basis-[100%] lg:basis-1/2 flex flex-col gap-16 shrink-0  text-sm md:text-lg'>
               <span>
                 At Afrix labs, products come first. sometimes that means taking
                 an existing app and helping its creators make it much better
