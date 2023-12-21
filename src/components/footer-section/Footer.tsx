@@ -10,8 +10,8 @@ export default function Footer() {
       <Overlay section='Footer' className='footer'>
         <section>
           <div className='footer-title md:text-3xl lg:text-5xl leading-6 relative -top-8 sm:top-0 font-body'>
-            <p className='tab-space'> Ready for the,</p>
-            <p>
+            <p className='tab-space font-body'> Ready for the,</p>
+            <p className=' font-body'>
               Next<span className=' italics'> big thing?</span>
             </p>
           </div>
