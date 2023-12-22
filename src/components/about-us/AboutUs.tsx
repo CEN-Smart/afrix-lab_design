@@ -18,7 +18,7 @@ export default function AboutUs() {
               </p>
             </div>
           </div>
-          <div className='flex justify-between gap-2 w-full flex-col lg:flex-row  text-[#9E9E9E]'>
+          <div className='flex justify-between gap-2 w-full max-lg:flex-col  text-[#9E9E9E]'>
             <Button
               className='self-end order-1 mt-8 shrink-0 lg:-order-1 lg:mt-0'
               icon='/images/arrow.svg'

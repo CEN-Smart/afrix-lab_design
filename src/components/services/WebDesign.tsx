@@ -13,11 +13,11 @@ export default function WebDesign() {
             </h3>
           </hgroup>
           <div className='flex flex-col gap-4 w-full'>
-            <span className='flex gap-4 flex-col md:flex-row items-center'>
+            <span className='flex gap-4 max-md:flex-col items-center'>
               <Button label='Product' blur className='text-white w-[260px]' />
               <Button label='Web' blur className='text-white w-[260px]' />
             </span>
-            <span className='flex gap-4 justify-center flex-col md:flex-row'>
+            <span className='flex gap-4 justify-center max-md:flex-col'>
               <Button
                 label='Mobile'
                 blur
