@@ -3,9 +3,9 @@ import { MdOutlineMarkEmailRead } from 'react-icons/md';
 
 export default function Cta() {
   return (
-    <section className=' cta-section min-h-screen grid place-items-center text-white'>
-      <Overlay section='CTA' className='cta'>
-        <div className='cta-content'>
+    <section className=' cta-section relative py-10  text-white'>
+      <Overlay section='CTA' className='cta flex flex-col justify-center '>
+        <div className='cta-content flex flex-col items-center'>
           <h1 className='md:text-3xl lg:text-5xl leading-6 relative -top-8 sm:top-0 font-body uppercase'>
             Where <span className=' italics font-title'>difference</span>{' '}
             <span className='uppercase'>is the standard, chose</span>{' '}
