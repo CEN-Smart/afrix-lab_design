@@ -4,16 +4,7 @@ import Button from '../buttons/Button';
 
 export default function AboutUs() {
   return (
-    <div className='relative py-10 bg-black'>
-      <div className='absolute  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0'>
-        <picture>
-          <img
-            src='/images/swirl-bg.png'
-            alt='Ring image'
-            className='w-full h-full object-fit'
-          />
-        </picture>
-      </div>
+    <div className='relative py-10 bg__about'>
       <Overlay section='About Us' className='relative'>
         <div className='flex flex-col gap-10 lg:gap-32 '>
           <div className='flex justify-center text-2xl text-white md:text-3xl lg:text-4xl xl:text-5xl'>

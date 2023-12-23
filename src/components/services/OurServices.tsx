@@ -3,26 +3,8 @@ import Overlay from '../overlay/Overlay';
 
 export default function OurServices() {
   return (
-    <div className='relative py-10 bg-black'>
-      <div className='absolute -top-[7rem] lg:-top-[8.5rem] -right-[7rem] max-w-[1024px] h-[364.125px] lg:h-1/2 z-0'>
-        <picture>
-          <img
-            src='/images/down.png'
-            alt='Ring image'
-            className='w-full h-full object-fit'
-          />
-        </picture>
-      </div>
-      <div className='absolute -top-[19.25rem] lg:-top-[25.25rem] -right-[6rem] max-w-[1024px] h-[364.125px] lg:h-1/2 -rotate-[45deg]  z-0'>
-        <picture>
-          <img
-            src='/images/top.png'
-            alt='Ring image'
-            className='w-full h-full object-fit'
-          />
-        </picture>
-      </div>
-      <Overlay section='Our Services' className='relative z-10'>
+    <div className='relative py-10 bg__services'>
+      <Overlay section='Our Services' className='relative'>
         <div className='flex flex-col gap-10 lg:gap-32 '>
           <div className='flex justify-center text-2xl text-white  md:text-3xl lg:text-4xl xl:text-5xl'>
             <div className=' leading-[1.4]'>

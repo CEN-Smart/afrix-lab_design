@@ -344,6 +344,27 @@
   transform: rotate(-135deg);
 }
 
+.bg__about {
+  background: #000 url('/images/swirl-bg.png');
+  background-repeat: no-repeat;
+  background-size: 516.999px 345.999px;
+  background-position: center;
+}
+
+.bg__featured {
+  background: #000 url('/images/top.png');
+  background-repeat: no-repeat;
+  background-size: 480px;
+  background-position: bottom -44px right -60px;
+}
+
+.bg__services {
+  background: #000 url('/images/down.png');
+  background-repeat: no-repeat;
+  background-size: 480px;
+  background-position: top -76px right -38px;
+}
+
 .bg__product--design {
   background: url('/images/product.jpg');
   background-repeat: no-repeat;

@@ -3,8 +3,8 @@ import Button from '../buttons/Button';
 
 export default function Featuredprojects() {
   return (
-    <div className='relative py-10 bg-black'>
-      <Overlay section='Featured Projects' className='relative z-10'>
+    <div className='relative py-10 bg__featured'>
+      <Overlay section='Featured Projects' className='relative'>
         <div className='flex flex-col items-center justify-center gap-10 lg:gap-32 '>
           <div className=' w-full h-[250px] py-4 md:py-0 md:w-[450px] md:h-[385px] relative '>
             <picture>
