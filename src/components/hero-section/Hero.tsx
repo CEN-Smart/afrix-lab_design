@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className='bg-hero flex flex-col justify-center items-center text-white pt-40  lg:gap-16'>
+    <section className='bg-hero flex flex-col justify-center items-center text-white pt-32 lg:pt-40  lg:gap-16'>
       <hgroup className='md:text-3xl lg:text-5xl leading-6 relative'>
         <h1> Building</h1>
         <h1> Innovative </h1>
@@ -8,13 +8,14 @@ export default function Hero() {
           Blockchain Solutions
         </h1>
       </hgroup>
-      <aside className='max-w-[1200px] ml-auto xl:pr-[7rem] flex items-center'>
+      <aside className='max-w-[1200px] ml-auto xl:pr-[7rem] flex items-center mt-6'>
         <p className=' font-title italic flex flex-col leading-relaxed md:text-2xl lg:text-4xl text-white'>
           <span>Inspire</span>
           <span>Innovate</span>
           <span>Incubate</span>
         </p>
         <svg
+          className='h-20 lg:h-auto -ml-6 lg:ml-auto'
           xmlns='http://www.w3.org/2000/svg'
           width='126'
           height='126'
