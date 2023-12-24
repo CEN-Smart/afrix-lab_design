@@ -8,7 +8,10 @@ type LogoProps = {
 
 const Logo = ({ className, image }: LogoProps) => {
   return (
-    <Link href='/' className={className}>
+    <Link
+      href='/'
+      className={` focus:outline-2 focus:outline focus:outline-emerald-500 focus:outline-offset-1 transition duration-500 ${className}`}
+    >
       <picture>
         <img className='w-full h-full' src={image} alt='Logo' />
       </picture>

@@ -12,7 +12,7 @@ export default function Navbar() {
           className='block w-12 overflow-hidden rounded-full aspect-square '
         />
         <div className='relative flex items-center gap-3 md:gap-6'>
-          <button className='flex-shrink-0 bg-cta hover:bg-ctahover transition duration-300 px-5 py-2 rounded-[12px] shadow-button'>
+          <button className='flex-shrink-0 bg-cta hover:bg-ctahover focus:outline-2 focus:outline focus:outline-emerald-500 focus:outline-offset-1 transition duration-300 px-5 py-2 rounded-[12px] shadow-button'>
             Get in touch
           </button>
           <Navigation />

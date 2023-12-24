@@ -11,7 +11,7 @@ export default function Cta() {
             <span className='uppercase'>is the standard, chose</span>{' '}
             <span className='text-white'>AFRIX LABS</span>
           </h1>
-          <button className='flex-shrink-0 bg-cta hover:bg-ctahover transition duration-300 px-5 py-2 rounded-[12px]'>
+          <button className='flex-shrink-0 bg-cta hover:bg-ctahover focus:outline-2 focus:outline focus:outline-emerald-500 focus:outline-offset-1 transition duration-300 px-5 py-2 rounded-[12px]'>
             Say hello <MdOutlineMarkEmailRead />
           </button>
         </div>
