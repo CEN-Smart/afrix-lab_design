@@ -12,7 +12,7 @@ export default function OurServices() {
                 Using digital transformation
               </p>
               <p className=''>
-                of{' '}
+                to{' '}
                 <span className='italic  font-title'>
                   innovate & Inspire Brands
                 </span>
